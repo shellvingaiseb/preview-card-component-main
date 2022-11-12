@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Outfit';
+}
+
+body {
+  max-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 50px;
+}
+
+.section-container {
+  width: 350px;
+  height: 610px;
+  border-radius: 8px;
+  margin-top: 30px;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ethereum-image {
+  width: 300px;
+  border-radius: 8px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+h2:active {
+  color:hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.detail {
+  color: hsl(215, 51%, 70%);
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.symbols {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.logo {
+  display: flex;
+  gap: 9px;
+  font-weight: 400;
+  color: hsl(178, 100%, 50%);
+}
+
+.time {
+  display: flex;
+  color: hsl(215, 51%, 70%);
+  margin-right: 30px;
+  gap: 8px;
+}
+
+hr {
+  border: 1px solid hsla(215, 32%, 27%, 0.9);
+  margin-top: 24px;
+  width: 300px;
+}
+
+.profile {
+  display: flex;
+  margin-top: 19px;
+  vertical-align: middle;
+
+}
+
+.profile-picture {
+  width: 40px;
+  border: solid 1px #fff;
+  border-radius: 50%;
+
+}
+
+.author {
+  color: hsl(215, 32%, 27%);
+  align-self: center;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.name {
+  color: hsl(0, 0%, 100%);
+  margin-left: 5px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.name:active {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
